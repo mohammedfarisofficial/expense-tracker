@@ -1,0 +1,39 @@
+@import "../styles//mixins.scss";
+@import "../styles//variable.scss";
+
+.history{
+    width: 100%;
+    height: 100%;
+    .history-top-section{
+        width: 100%;
+        height: 4rem;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        h4{
+            @include headingFour;
+        }
+        .underline{
+            position:absolute;
+            bottom: 0;
+            width: 90%;
+            height: .1rem;
+            background: $linear11;
+            background: $linear12;
+            border-radius: .5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .history-bottom-section{
+        width: 100%;
+        height: 100%;
+        padding: 1rem 2rem 0;
+        overflow: scroll;
+        .history-list-container{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

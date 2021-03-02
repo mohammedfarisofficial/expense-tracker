@@ -1,0 +1,7 @@
+@import "./variable.scss";
+
+.box{
+    background-color: $boxColor;
+    border-radius: 29px;
+    overflow: hidden;   
+}

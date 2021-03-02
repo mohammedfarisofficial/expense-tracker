@@ -1,0 +1,89 @@
+@import "./variable.scss";
+@import "./mixins.scss";
+
+.balance{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    .balance-left-section{
+        width: 50%; 
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        .balance-left-section-container{
+            width: 90%;
+            height: 60%;
+            border-radius: 24px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: $linear11;
+            background: $linear12;
+            h4{
+                @include headingThree;
+            }
+            h2{
+                @include headingTwo;
+            }
+        }
+    }
+    .balance-right-section{
+        width: 50%; 
+        height: 100%;
+        .balance-right-top-section{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .balance-right-top-section-container{
+                width: 80%;
+                height: 80%;
+                border-radius: 24px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: $linear11;
+                background: $linear12;
+            h4{
+                @include headingThree;
+            }
+            h2{
+                @include headingTwo;
+            }
+            }
+        }
+        .balance-right-bottom-section{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .balance-right-bottom-section-container{
+                width: 80%;
+                height: 80%;
+                border-radius: 24px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: $linear21;
+                background: $linear22;
+            h4{
+                @include headingThree;
+            }
+            h2{
+                @include headingTwo;
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+// colour variables
+
+$white: #ffff;
+$black: #0000;
+$primary: #202442;
+$secondary: #25294A;
+$boxColor: #2D325A;
+$linear11: rgb(41,92,227);
+$linear12: linear-gradient(90deg, rgba(41,92,227,1) 0%, rgba(91,143,249,1) 52%);
+$linear21: rgb(100,55,217);
+$linear22: linear-gradient(90deg, rgba(100,55,217,1) 0%, rgba(159,123,241,1) 67%);
+// for hover 
+$linear13: rgb(35, 71, 170);
+$linear14: linear-gradient(90deg, rgb(29, 65, 161) 0%, rgb(62, 97, 168) 52%);
+$linear23: rgb(71, 43, 143);
+$linear24: linear-gradient(90deg, rgb(72, 40, 153) 0%, rgb(94, 72, 146) 67%);
+// responsive sizes
+
+$smallPhone: 290px;
+$phone: 380px;
+$smallTablet: 768px;
+$tablet: 1024px;
+$smallLaptop: 1200px;
+$laptop:1600px;
